@@ -1,14 +1,9 @@
 package helpTheBookSeller
 
 import org.junit.Test
-import org.junit.jupiter.api.Assertions.*
 import kotlin.test.assertEquals
 
 internal class StockListTest {
-
-//    @org.junit.jupiter.api.Test
-//    fun stockSummary() {
-//    }
 
     private fun testing(lstOfArt: Array<String>, lstOfCat: Array<String>, expect: String) {
         val actual: String = StockList.stockSummary(lstOfArt, lstOfCat)
